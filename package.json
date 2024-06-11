@@ -2,6 +2,9 @@
   "name": "e-commerce-backend",
   "version": "1.0.0",
   "main": "index.js",
+    "engines": {
+    "node": ">=15.0.0"
+  },
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
