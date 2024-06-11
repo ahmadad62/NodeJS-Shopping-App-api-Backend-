@@ -19,8 +19,8 @@ async function startServer() {
             })
             .catch(err => { console.log('error connecting MongoDB', err) })
 
-        app.listen(process.env.PORT || 5000, () => {
-            console.log('Backend server is running on port 5000');
+        app.listen(process.env.PORT || 5050, () => {
+            console.log('Backend server is running on port 5050');
         })
 
     } catch (err) {
